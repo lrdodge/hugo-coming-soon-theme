@@ -1,0 +1,1 @@
+# hugo-coming-soon-theme
