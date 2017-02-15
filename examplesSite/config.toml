@@ -1,0 +1,12 @@
+baseurl = "http://example.org/"
+languageCode = "en-us"
+title = "My New Hugo Site"
+theme = "hugo-coming-soon-theme"
+
+[params]
+  # Style Options: cursive, block
+  TitleStyle = "cursive"
+  
+	Subtitle = "Really awesome time lapse of a beautiful city."
+  CallToAction = "Join the waiting list for the beta. We'll keep you posted."
+  Action = "Notify Me"
