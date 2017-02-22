@@ -13,3 +13,4 @@ theme = "hugo-coming-soon-theme"
   CallToAction = "Join the waiting list for the beta. We'll keep you posted."
   Action = "Notify Me"
   
+  # GoogleAnalytics = "UA-00000000-0"
