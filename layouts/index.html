@@ -48,22 +48,22 @@
       <div class="collapse navbar-collapse" id="social-navbar-collapse">
         <ul class="nav navbar-nav navbar-right">
           <li>
-            <a href="https://www.facebook.com/sharer/sharer.php?u={{ .Site.BaseURL }}">
+            <a href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}">
               <i class="fa fa-facebook-square"></i> Share
             </a>
           </li>
           <li>
-            <a href="https://twitter.com/intent/tweet?text={{ .Site.Title }}: {{ .Site.Params.Subtitle }}%0D%0A{{ .Site.BaseURL }}">
+            <a href="https://twitter.com/intent/tweet?text={{ .Site.Title }}: {{ .Site.Params.Subtitle }}%0D%0A{{ .Permalink }}">
               <i class="fa fa-twitter-square"></i> Tweet
             </a>
           </li>
           <li>
-            <a href="https://plus.google.com/share?url={{ .Site.BaseURL }}">
+            <a href="https://plus.google.com/share?url={{ .Permalink }}">
               <i class="fa fa-google-plus-square"></i> Plus
             </a>
           </li>
           <li>
-            <a href="https://www.pinterest.com/pin/create/button/?url={{ .Site.BaseURL }}.com&media=https%3A%2F%2Ffarm8.staticflickr.com%2F7027%2F6851755809_df5b2051c9_z.jpg&description={{ .Site.Title }}: {{ .Site.Params.Subtitle }}">
+            <a href="https://www.pinterest.com/pin/create/button/?url={{ .Permalink }}.com&media={{ .Site.BaseURL }}/images/video_bg.jpg&description={{ .Site.Title }}: {{ .Site.Params.Subtitle }}">
               <i class="fa fa-pinterest"></i> Pin
             </a>
           </li>
