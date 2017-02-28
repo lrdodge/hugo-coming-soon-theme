@@ -63,7 +63,7 @@
             </a>
           </li>
           <li>
-            <a href="https://www.pinterest.com/pin/create/button/?url={{ .Permalink }}.com&media={{ .Site.BaseURL }}/images/video_bg.jpg&description={{ .Site.Title }}: {{ .Site.Params.Subtitle }}">
+            <a href="https://www.pinterest.com/pin/create/button/?url={{ .Permalink }}.com&media={{ .Site.BaseURL }}/images/video_bg.jpg&description={{ .Site.Title }}: {{ delimit .Site.Params.Subtitle " "}}">
               <i class="fa fa-pinterest"></i> Pin
             </a>
           </li>
@@ -81,7 +81,7 @@
   <div class="container">
     <h1 class="logo {{ if eq .Site.Params.TitleStyle " cursive " }}cursive{{ end }}">{{ .Site.Title }}</h1>
     <div class="content">
-      <h4 class="motto">{{ .Site.Params.Subtitle }}</h4>
+      <h4 class="motto">{{ delimit .Site.Params.Subtitle "<br/>"}}</h4>
       <div class="subscribe">
         <h5 class="info-text">{{ .Site.Params.CallToAction }}</h5>
         <div class="row">

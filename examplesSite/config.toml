@@ -9,7 +9,7 @@ theme = "hugo-coming-soon-theme"
   # black, blue, green, red, orange 
   FilterColor = "black"
   
-	Subtitle = "Really awesome time lapse of a beautiful city."
+	Subtitle = ["Really awesome time lapse of a beautiful city.", "Much Slowness."]
   CallToAction = "Join the waiting list for the beta. We'll keep you posted."
   Action = "Notify Me"
   
