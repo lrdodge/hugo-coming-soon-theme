@@ -1,0 +1,15 @@
+name = "Hugo Coming Soon Theme"
+license = "MIT"
+licenselink = "https://github.com/lrdodge/hugo-coming-soon-theme/blob/master/LICENSE.md"
+description = "One page theme based on Bootstrap 3. Use Coming Soon to create a following group users before actually starting your project! it is light, easy to use and it helps you be in contact with your audience."
+homepage = "http://siteforthistheme.com/"
+min_version = 0.18
+
+[author]
+  name = "Luke Dodge"
+  homepage = "https://github.com/lrdodge"
+
+# If porting an existing theme
+[original]
+  name = "Coming Sssoon Page"
+  homepage = "https://www.creative-tim.com/product/coming-sssoon-page"
